@@ -3,7 +3,6 @@
 
 board:
   name: aero_pro_uf2
-  full_name: Aero Pro
   vendor: aero
   socs:
     - name: nrf52840
