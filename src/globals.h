@@ -79,8 +79,6 @@
 #define SENSOR_MAGNETOMETER_AXES_ALIGNMENT my, mx, mz
 #endif
 
-
-
 #ifdef CONFIG_SENSOR_ROTATION_0
 #define SENSOR_QUATERNION_CORRECTION 1.0f, 0.0f, 0.0f, 0.0f
 #elif defined(CONFIG_SENSOR_ROTATION_90)
@@ -103,7 +101,7 @@
 // with the top side as +X and front side as +Z and left side as +Y from your perspective
 // on stacked promicro with common breakout board
 #ifndef SENSOR_MAGNETOMETER_AXES_ALIGNMENT
-#define SENSOR_MAGNETOMETER_AXES_ALIGNMENT -mx, -my, mz // mag axes alignment to sensor body
+#define SENSOR_MAGNETOMETER_AXES_ALIGNMENT mx, -my, mz // mag axes alignment to sensor body
 #endif
 // not sure if this is needed or correct, it still seems weird in server without full reset, but leaving it for now
 #ifndef SENSOR_QUATERNION_CORRECTION
