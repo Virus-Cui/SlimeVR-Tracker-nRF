@@ -2,8 +2,8 @@
 # SPDX-License-Identifier: Apache-2.0
 
 identifier: aero_pro_uf2
-name: Aero Pro
-vendor: aero
+name: aero_pro_uf2
+vendor: nordic
 type: mcu
 arch: arm
 ram: 256
