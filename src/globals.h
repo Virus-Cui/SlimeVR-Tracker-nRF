@@ -80,7 +80,7 @@
 #endif
 
 #if defined(CONFIG_BOARD_AERO_PRO_UF2)
-#define SENSOR_MAGNETOMETER_AXES_ALIGNMENT my, mx, mz
+#define SENSOR_MAGNETOMETER_AXES_ALIGNMENT -mx, my, mz
 #endif
 
 #ifdef CONFIG_SENSOR_ROTATION_0
