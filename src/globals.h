@@ -74,6 +74,10 @@
 #endif
 
 #if defined(CONFIG_BOARD_AERO_PRO_UF2)
+#define SENSOR_MAGNETOMETER_AXES_ALIGNMENT -mx, my, mz
+#endif
+
+#if defined(CONFIG_BOARD_AERO_ULTRA_UF2)
 #define SENSOR_MAGNETOMETER_AXES_ALIGNMENT -mx, -my, mz
 #endif
 
