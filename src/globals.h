@@ -105,6 +105,7 @@
 #define SENSOR_QUATERNION_CORRECTION 0.0f, 0.70710678f, 0.70710678f, 0.0f
 #endif
 
+
 // default orientation for most boards with the sensor mounted flat on the PCB
 // with the top side as +X and front side as +Z and left side as +Y from your perspective
 // on stacked promicro with common breakout board
