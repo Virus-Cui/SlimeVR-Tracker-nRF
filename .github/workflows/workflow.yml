@@ -224,6 +224,7 @@ jobs:
                   {boardname: "paper_smol_v1_uf2/nrf52833", filename: "paper_smol_v1_uf2"},
                   {boardname: "sk_cheesecake_nrf_p00/nrf52840/uf2", filename: "SlimeNRF_SK_Cheesecake_P00_Tracker"},
                   {boardname: "sk_cheesecake_nrf_p10/nrf52840/uf2", filename: "SlimeNRF_SK_Cheesecake_P10_Tracker"},
+                  {boardname: "aero_ultra_uf2/nrf52840", filename: "Aero_Tracker_Ultra"},
                 ]
     runs-on: ubuntu-24.04
     steps:
